@@ -1,0 +1,49 @@
+@import 'variables/variables';
+@import 'mixins/mixin';
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;600;700;900&display=swap');
+@import url('../css/nice-select.css');
+@import url('../css/swiper-bundle.min.css');
+@import url('../css/normalize.css');
+
+* {
+    font-family: 'Montserrat', sans-serif;
+	margin: 0;
+	padding: 0;
+    box-sizing: border-box;
+}
+
+img {
+    display: block;
+}
+
+body {
+    overflow-x: hidden;
+    -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+    position: relative;
+}
+body.active {
+	overflow: hidden;
+}
+
+.container {
+    padding: 0 calc(50vw - 825px);
+}
+
+.bgwhite {
+    background-color: $background-white-color;
+}
+
+.bgblack {
+    background-color: $text-black-color;
+}
+
+@import 'title';
+@import 'scope';
+@import 'padding';
+@import 'header';
+@import 'promo';
+@import 'center';
+@import 'textandimg';
+@import 'project';
+@import 'mainslider';
+@import 'footer';

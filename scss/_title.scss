@@ -1,0 +1,9 @@
+.title {
+    @include fz45;
+    .title__accent {
+        color: $accent-purple-color;
+    }
+}
+.title__white {
+    color: $background-white-color;
+}

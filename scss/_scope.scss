@@ -1,0 +1,31 @@
+.scope {
+    .title {
+        max-width: 1120px;
+    }
+    &__wrapper {
+        margin-top: 82px;
+        .scope__list {
+            display: grid;
+            grid-template-columns: 614px 614px;
+            column-gap: 82px;
+            row-gap: 91px;
+            list-style-type: none;
+            padding-left: 52px;
+            .scope__item {
+                @include fz20;
+                padding-left: 80px;
+                position: relative;
+            }
+            .scope__item::before {
+                content: '';
+                display: inline-block;
+                width: 53px;
+                height: 3px;
+                background-color: $accent-green-color;
+                position: absolute;
+                left: 0;
+                top: 15px;
+            }
+        }
+    }
+}

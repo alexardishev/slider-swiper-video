@@ -1,0 +1,37 @@
+@mixin fz16 {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    color: $text-black-color;
+}
+
+@mixin fz20 {
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 150%;
+    color: $text-black-color;
+}
+
+@mixin fz30 {
+    font-style: normal;
+    font-weight: bold;
+    font-size: 30px;
+    line-height: 130%;
+    color: $accent-purple-color;
+}
+
+@mixin fz45 {
+    font-style: normal;
+    font-weight: 600;
+    font-size: 45px;
+    line-height: 130%;
+    color: $text-black-color;
+}
+
+
+@mixin  img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
